@@ -1,0 +1,25 @@
+{
+  "name": "dollars2words",
+  "version": "1.0.0",
+  "description": "just currency to words :D",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/renkouzuki",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/renkouzuki/dollarstowords.git)"
+  },
+  "keywords": [
+    "dollars2words"
+  ],
+  "author": "renko_uzuki",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
